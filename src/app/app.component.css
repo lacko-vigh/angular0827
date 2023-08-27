@@ -1,0 +1,20 @@
+.navbar {
+  color: white;
+  background-image: url("/assets/fejlec_bg.jpg");
+}
+
+.fejlec {
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+}
+
+.gombok {
+    font-size: large;
+    justify-content: space-between;
+}
+
+mat-button:hover{
+  color: red;
+  cursor: pointer;  
+}

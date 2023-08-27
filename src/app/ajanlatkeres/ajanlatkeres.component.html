@@ -1,0 +1,36 @@
+
+<mat-card class="card">
+    <mat-card-header class="cardheader">
+        <mat-card-title class="title">Ajánlatkérés</mat-card-title>
+        <mat-card-subtitle>Ajánlatkéréshez töltse ki az alábbi űrlapot</mat-card-subtitle>
+    </mat-card-header>
+        <mat-card-content>
+            <form class="example-form">
+                <mat-form-field class="formfield">
+                  <mat-label>Név *</mat-label>
+                  <input matInput title="text">
+                </mat-form-field>
+                <mat-form-field class="formfield">
+                    <mat-label>email *</mat-label>
+                    <input matInput title="email">
+                  </mat-form-field>
+                  <section class="example-section">
+                    <mat-checkbox class="example-margin">Festés</mat-checkbox> <br>
+                    <mat-checkbox class="example-margin">Mázolás</mat-checkbox> <br>
+                    <mat-checkbox class="example-margin">Tapétázás</mat-checkbox> <br>
+                    <mat-checkbox class="example-margin">Egyéb</mat-checkbox> <br>
+                  </section>
+                  <mat-form-field class="formfield">
+                    <mat-label>Falfelület mérete *</mat-label>
+                    <input matInput title="text">
+                  </mat-form-field>
+                <mat-form-field class="formfield">
+                  <mat-label>Megjegyzés</mat-label>
+                  <textarea matInput></textarea>
+                </mat-form-field>
+              </form>
+            <button class="button" mat-raised-button color="accent">Accent</button>
+        </mat-card-content>
+</mat-card>
+
+<router-outlet></router-outlet>

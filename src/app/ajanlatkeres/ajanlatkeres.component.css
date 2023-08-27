@@ -1,0 +1,16 @@
+.card {
+    width: 400px;
+    margin: 0 auto;
+}
+.cardheader {
+    margin: 0 auto;
+}
+.title {
+    font-size: 20px;
+}
+.formfield {
+    width: 100%;
+}
+.button {
+    width: 100%;
+}
